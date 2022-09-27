@@ -1,10 +1,11 @@
 import React from 'react';
-import Brick from './brick.png'
+import "./TILE_OPEN_BRICK_1.css";
+import Texture from "./brick.png";
 
 const TILE_OPEN_BRICK_1 = () => {
     return (
-        <Brick />
+        <img src={Texture} alt='brick' className='brick' />
     );
 };
 
-export default TILE_OPEN_BRICK_1;
+export { TILE_OPEN_BRICK_1 };
