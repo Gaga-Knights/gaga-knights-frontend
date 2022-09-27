@@ -1,9 +1,9 @@
-import './App.css';
+import ARENA_1_1 from "./map/arenas/ARENA_1_1/ARENA_1_1";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello, world</h1>
+      <ARENA_1_1/>
     </div>
   );
 }
