@@ -1,6 +1,7 @@
 import React from 'react';
 import './ARENA_1_1.css';
 import { TILE_OPEN_BRICK_1 as Brick} from '../../tiles/TILE_OPEN_BRICK_1/TILE_OPEN_BRICK_1';
+import { DRAGON as Dragon } from '../../../monsters/MONSTER_1_1/DRAGON';
 
 const ARENA_1_1 = () => {
     return (
