@@ -7,7 +7,7 @@ body {
 
 /* Arena */
 .arena {
-    transform: perspective(300px) rotateX(50deg) rotate(5deg);
+    /* transform: perspective(300px) rotateX(50deg) rotate(5deg); */
     display: grid;
     grid-template-columns: repeat(5, 64px);
     grid-template-rows: repeat(6, 64px);
@@ -139,7 +139,7 @@ body {
 
 /* Knight's Arena */
 .knight-position-arena {
-    transform: perspective(300px) rotateX(50deg) rotate(5deg);
+    /* transform: perspective(300px) rotateX(50deg) rotate(5deg); */
     position: fixed;
     top: 0;
     margin-top: 11px;
@@ -221,7 +221,7 @@ body {
 .knight-position-e4 {
         grid-area: 5 / 4 / 6 / 5;
     }
-.knight-position1-e5 {
+.knight-position-e5 {
         grid-area: 5 / 5 / 6 / 6;
     }
 .knight-position-f1 {

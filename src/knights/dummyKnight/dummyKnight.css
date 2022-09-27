@@ -1,7 +1,6 @@
 .knight {
-    height: 70px;
-    width: 70px;   
+    height: 64px;
+    width: 64px;   
     z-index: 1;
     filter: drop-shadow(5px 5px 5px #222);
-    transform: rotate(-5deg);
 }
