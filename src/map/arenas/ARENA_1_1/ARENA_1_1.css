@@ -2,14 +2,12 @@ body {
     display: flex;
     justify-content: center;
 }
-.parent {
+.arena {
     display: grid;
     grid-template-columns: repeat(5, 64px);
     grid-template-rows: repeat(6, 64px);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     }
-    
+/* Tile Locations */
     .tile1 {
          grid-area: 1 / 1 / 2 / 2;
          border: solid;

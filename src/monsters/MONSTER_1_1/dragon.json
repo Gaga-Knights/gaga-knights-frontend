@@ -1,0 +1,8 @@
+{
+    "attacks": ["bite", "breath_weapon", "claw", "tail"],
+    "telegraph": ["bite", "breath_weapon", "claw", "tail"],
+    "hp": 100,
+    "move": 0,
+    "goldDrop": 100,
+    "death": "animation, and next level"
+}
