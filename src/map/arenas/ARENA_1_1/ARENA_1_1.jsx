@@ -1,9 +1,11 @@
 import React from 'react';
 import './ARENA_1_1.css';
+import { TILE_OPEN_BRICK_1 } from '../../tiles/TILE_OPEN_BRICK_1/TILE_OPEN_BRICK_1';
 
 const ARENA_1_1 = () => {
     return (
         <div class="parent">
+            <TILE_OPEN_BRICK_1/>
             <div class="tile1"> </div>
             <div class="tile2"> </div>
             <div class="tile3"> </div>
