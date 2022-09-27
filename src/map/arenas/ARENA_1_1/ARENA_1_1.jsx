@@ -1,7 +1,7 @@
 import React from 'react';
 import './ARENA_1_1.css';
 import { TILE_OPEN_BRICK_1 as Brick } from '../../tiles/TILE_OPEN_BRICK_1/TILE_OPEN_BRICK_1';
-import { DUMMY_KNIGHT as Knight } from '../../../knights/DUMMY_KNIGHT';
+import { DUMMY_KNIGHT as Knight } from '../../../knights/dummyKnight/DUMMY_KNIGHT';
 
 const ARENA_1_1 = () => {
     return (
