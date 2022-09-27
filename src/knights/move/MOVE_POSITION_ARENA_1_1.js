@@ -1,4 +1,4 @@
-const MOVE_POSITION = () => {
+const MOVE_POSITION_ARENA_1_1 = () => {
  
     // Knight Positions
     const knight_mover = document.querySelector("#knight-mover")
@@ -438,4 +438,4 @@ const MOVE_POSITION = () => {
         }
     })
 }
-export { MOVE_POSITION };
+export { MOVE_POSITION_ARENA_1_1 };

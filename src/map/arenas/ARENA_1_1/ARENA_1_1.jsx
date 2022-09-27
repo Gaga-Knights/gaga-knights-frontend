@@ -2,6 +2,7 @@ import React from 'react';
 import './ARENA_1_1.css';
 import { TILE_OPEN_BRICK_1 as Brick } from '../../tiles/TILE_OPEN_BRICK_1/TILE_OPEN_BRICK_1';
 import { DUMMY_KNIGHT as Knight } from '../../../knights/dummyKnight/DUMMY_KNIGHT';
+import { DRAGON as Dragon} from '../../../monsters/MONSTER_1_1/DRAGON.jsx'
 
 const ARENA_1_1 = () => {
     return (
@@ -39,6 +40,7 @@ const ARENA_1_1 = () => {
                 <Brick className="tile30"> </Brick>
             </div>
             <Knight></Knight>
+            <Dragon></Dragon>
             </>
     );
 };
