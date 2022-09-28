@@ -21,7 +21,6 @@ const MOVE_POSITION_ARENA_1_1 = () => {
         // eslint-disable-next-line default-case
         switch (event.code) {
             case "ArrowLeft":
-                console.log(`${mp}f5`)
                 // Row F Left
                 if ((knight_tile.contains(`${kp}f5`))&&(!monster_tile.contains(`${mp}f4`))) {
                     knight_tile.remove(`${kp}f5`)

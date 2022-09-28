@@ -1,0 +1,7 @@
+.frost-giant {
+    height: 192px;
+    width: 192px;   
+    z-index: 2;
+    filter: drop-shadow(5px 5px 5px #222);
+    transform: skewy(-30deg);
+}
