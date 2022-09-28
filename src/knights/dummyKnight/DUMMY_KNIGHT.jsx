@@ -13,7 +13,7 @@ const DUMMY_KNIGHT = () => {
     
     return (
         <div className='knight-position-arena'>
-            <div id='knight-mover' className='knight-position-f3'>
+            <div id='knight-mover' className='knight-position-f5'>
                 <img className='knight' src={image} alt={knight.name} />
             </div>
         </div>
