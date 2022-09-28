@@ -1,6 +1,6 @@
 .dragon {
-    height: 64px;
-    width: 64px;   
+    height: 192px;
+    width: 192px;   
     z-index: 2;
     filter: drop-shadow(5px 5px 5px #222);
 }
