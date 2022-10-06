@@ -15,6 +15,28 @@
 #strike-up {
     top: -10px;
     left: 0;
+    z-index: 2;
+    position: absolute;
+    display: none;
+}
+
+#strike-down {
+    top: 10px;
+    left: 0;
+    position: absolute;
+    display: none;
+}
+
+#strike-left {
+    top: 0;
+    left: -10px;
+    position: absolute;
+    display: none;
+}
+
+#strike-right {
+    top: 0;
+    right: -10px;
     position: absolute;
     display: none;
 }
