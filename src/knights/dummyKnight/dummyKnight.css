@@ -4,3 +4,17 @@
     z-index: 1;
     filter: drop-shadow(5px 5px 5px #222);
 }
+
+/* Attacks CSS */
+
+#knight-mover {
+    float: top;
+    position: relative;
+}
+
+#strike-up {
+    top: -10px;
+    left: 0;
+    position: absolute;
+    display: none;
+}
