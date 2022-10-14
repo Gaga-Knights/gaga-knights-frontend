@@ -13,10 +13,8 @@ const DUMMY_KNIGHT = () => {
     const [knight, setKnight] = useState(data)
 
     useEffect(() => {
-      MOVE_POSITION()  
-    })
-    useEffect(() => {
-        ATTACK_POSITION()
+        MOVE_POSITION() 
+        ATTACK_POSITION()  
     })
     
     return (
