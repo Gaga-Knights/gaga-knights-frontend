@@ -14,7 +14,7 @@ const DUMMY_KNIGHT = () => {
 
     useEffect(() => {
         MOVE_POSITION() 
-        ATTACK_POSITION()  
+        ATTACK_POSITION()
     })
     
     return (

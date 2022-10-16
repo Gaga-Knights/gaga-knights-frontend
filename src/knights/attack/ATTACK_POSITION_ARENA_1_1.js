@@ -1,3 +1,5 @@
+let monster_hitpoints = 100
+
 const ATTACK_POSITION_ARENA_1_1 = () => {
  
     // Knight Positions
@@ -405,6 +407,7 @@ const ATTACK_POSITION_ARENA_1_1 = () => {
                     setTimeout(() => {
                         strike_up.style.display = "none"
                     }, "100")
+                    monster_hitpoints -= 10
                 }
                 else if (knight_tile.contains(`${kp}d3`)&&monster_tile.contains(`${mp}c3`)) {
                     strike_up.style.display = "block"
