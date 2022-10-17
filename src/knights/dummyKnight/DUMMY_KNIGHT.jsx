@@ -7,16 +7,21 @@ import strike_down from "./visuals/attacks/strike-down.png"
 import strike_left from "./visuals/attacks/strike-left.png"
 import strike_right from "./visuals/attacks/strike-right.png"
 import { MOVE_POSITION_ARENA_1_1 as MOVE_POSITION } from '../move/MOVE_POSITION_ARENA_1_1';
-import { ATTACK_POSITION_ARENA_1_1 as ATTACK_POSITION} from '../attack/ATTACK_POSITION_ARENA_1_1';
+import { ATTACK_POSITION_ARENA_1_1 as ATTACK_POSITION } from '../attack/ATTACK_POSITION_ARENA_1_1';
+import { BREATH_WEAPON } from '../../monsters/MONSTER_1_1/ATTACKS/BREATH_WEAPON';
 
 const DUMMY_KNIGHT = () => {
     const [knight, setKnight] = useState(data)
+
+    
 
     useEffect(() => {
         MOVE_POSITION() 
         ATTACK_POSITION()
     })
-    
+    // useEffect(() => {
+    //     BREATH_WEAPON()
+    // }, [])
     return (
         <div className='knight-position-arena'>
             <div id='knight-mover' className='knight-position-f3'>
